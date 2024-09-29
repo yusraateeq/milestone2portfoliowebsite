@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusra's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Lumanosimo&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="white">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <ul>
+
+               <a href="index.html" class="logo">Yusra <span>Ateeq</span></a>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="project.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact Me</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="40px" viewBox="0 -960 960 960" width="30px" fill="white">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </header>
+
+    
+
+    <section class="home" id="home">
+
+        <div class="home-content" data-aos="fade-right" data-aos-duration="1500">
+            <h2>Hi, It's <span>Yusra</span></h2>
+            <h3>and I'm a passionate</h3>
+            <div class="green"> <span id="element"></span></div>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61552980219340&mibextid=ZbWKwL" target="_blank"><img src="facebook-circle-logo-24.png" alt=""></a>
+                <a href="https://www.instagram.com/ateeq.yusra?igsh=OWR6Y3lwZjlyZ3Nh" target="_blank"><img src="instagram-alt-logo-24 (1).png" alt=""></a>
+                <a href="https://www.linkedin.com/in/yusra-ateeq-00797a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="linkedin-square-logo-24 (1).png" alt=""></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="" download>Download CV</a>
+            </div>
+        </div>
+
+        <div class="home-img" data-aos="fade-left" data-aos-duration="1500">
+            <img src="girl 1.png" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="about" id="about">
+        <div class="about-1" data-aos="fade-left" data-aos-duration="1500">
+            <div class="about-img">
+                <img src="girl 1.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <p>Hello, my name is Yusra Ateeq. I am 18 years old. I'm a professional Web Developer with more than 1 years experience. I love to try something new for my project.</p>
+            </div>
+        </div>
+
+        <hr>
+        <div data-aos="fade-right" data-aos-duration="1500">
+            <div class="experience">
+                <h2> <span>Work</span> Experience</h2>
+                <p>In my +1 years career, I took a part in 2 companies and help them growing up. Being a professional Web Developer is my dream, so I enjoy finishing design and try something new for my project..</p>
+            </div>
+            <div class="box">
+                <div>
+                    <li class="num">30<span>+</span></li>
+                    <li class="text">Projects</li>
+                </div>
+                <div>
+                    <li class="num">1<span>+</span></li>
+                    <li class="text">Years Experience</li>
+                </div>
+                <div>
+                    <li class="num">10<span>+</span></li>
+                    <li class="text">Satisfied Clients</li>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div data-aos="fade-left" data-aos-duration="1500">
+            <div class="skills">
+                <h2>My <span>Skills</span></h2>
+            </div>
+            <div class="skills-img">
+                <div>
+                    <img class="img-1" src="html.jpeg" alt="" width="230px">
+                    <img src="css.png" alt="" width="230px">
+                    <img src="js.png" alt="" width="230px">
+                    <img src="wordpress.jpeg" alt="" width="230px">
+                    <img src="bootstrap.png" alt="" width="230px" >
+                    <img src="mysql.png" alt="" width="230px" >
+                    <img src="php.png" alt="" width="230px">
+
+                </div>
+                <div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="project-1" data-aos="fade-right" data-aos-duration="1500">
+            <h2> <span>PRO</span>JECT<span>-1</span></h2>
+            <div class="video-1">
+                <video autoplay="" muted="" loop="" src="buildcon.mp4" he></video>
+                <div>
+                    <h3>Buildcon</h3>
+                    <p>Welcome to buildcon BUILDCON has replaced the “traditional survey techniques, which were based on
+                        total station”</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-2" data-aos="fade-left" data-aos-duration="1500">
+
+            <h2>PRO<span>JECT</span>-2</h2>
+            <div class="video-2">
+                <div>
+                    <h3>Login Page</h3>
+                    <p>Modal Login Screen is a clean and fresh popup login page. Simple, creative, and vibrant login form using PHP</p>
+                </div>
+                
+                <video autoplay="" muted="" loop="" src="login.mp4"></video>
+                
+            </div>
+        </div>
+        <div class="project-3" data-aos="fade-right" data-aos-duration="1500">
+
+            <h2> <span>PRO</span>JECT<span>-3</span></h2>
+            <div class="video-3">
+                <video autoplay="" muted="" loop="" src="mobile.mp4" he></video>
+                <div>
+                    <h3>Real Phone</h3>
+                    <p>Welcome to Real phones boast high-quality displays, camera, processor and battery life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <form action="https://formspree.io/f/xrbzjoqa" target="_blank" method="post" id="contact">
+        <div class="form" id="message">
+            <div data-aos="fade-up" data-aos-duration="1800">
+                <p> <span>Message</span> me</p>
+                <div class="inputs">
+
+                    <input type="text" name="name" placeholder="Name" autocomplete="off" required>
+                    <input type="email" name="email" id="" placeholder="Email" required>
+                    <textarea name="message" id="" rows="5" cols="70" placeholder="Message me..."></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <footer class="footer">
+        <div class="social-icons-1">
+            <a href="https://www.facebook.com/profile.php?id=61552980219340&mibextid=ZbWKwL" target="_blank"><img src="facebook-circle-logo-24.png" alt=""></a>
+            <a href="https://www.instagram.com/ateeq.yusra?igsh=OWR6Y3lwZjlyZ3Nh" target="_blank"><img src="instagram-alt-logo-24 (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/in/yusra-ateeq-00797a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="linkedin-square-logo-24 (1).png" alt=""></a>
+        </div>
+        <ul class="list">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        <p class="copyright">
+            @ Yusra Ateeq | All Right Reserved
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
